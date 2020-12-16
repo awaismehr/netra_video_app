@@ -1,0 +1,14 @@
+.at-formholder{
+    max-width: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  -webkit-box-shadow: 0 0 15px 0 rgba(0,0,0,0.15);
+box-shadow: 0 0 15px 0 rgba(0,0,0,0.15);
+}

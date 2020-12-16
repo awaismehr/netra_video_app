@@ -1,0 +1,64 @@
+.rt-sidebarwrapper {
+  left: 0;
+  z-index: 1;
+  top: 61px;
+  width: 60px;
+  height: 100vh;
+  position: fixed;
+  padding: 20px 0 0;
+  background: #474855;
+  -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+}
+.rt-hideshow .rt-sidebarwrapper {
+  width: 165px !important;
+}
+.rt-sidebar {
+  width: 100%;
+  float: left;
+}
+.rt-sidebarnav {
+  width: 100%;
+  float: left;
+}
+.rt-sidebarnav ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  float: left;
+  list-style: none;
+}
+.rt-sidebarnav ul li {
+  width: 100%;
+  float: left;
+  padding: 20px 0;
+  list-style-type: none;
+}
+.rt-sidebarnav ul li a {
+  display: block;
+  color: #fff;
+  font-size: 20px;
+  padding: 0 20px;
+  line-height: 23px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.rt-sidebarnav ul li a i {
+  padding: 0 10px 0 0;
+}
+.rt-sidebarnav ul li a span {
+  display: none;
+}
+.rt-hideshow .rt-sidebarnav ul li a span {
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .rt-sidebarwrapper {
+    left: -60px;
+  }
+  .rt-hideshow .rt-sidebarwrapper {
+    left: 0;
+    top: 102px;
+  }
+}

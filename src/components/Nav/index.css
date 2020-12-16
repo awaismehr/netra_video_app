@@ -1,0 +1,80 @@
+.rt-wrapper {
+  overflow: hidden;
+  padding: 80px 20px 20px 80px;
+}
+.rt-hideshow.rt-wrapper {
+  padding: 80px 20px 20px 185px;
+}
+.rt-header {
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  position: fixed;
+  background: #745fde;
+  /* background: #fff; */
+  padding: 15px 25px;
+  -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+}
+.rt-logo {
+  float: left;
+  width: 72px;
+  padding: 2px 0;
+  margin-right: 13px;
+}
+.rt-logo a,
+.rt-logo a img {
+  display: block;
+}
+.rt-logo a img {
+  width: 100%;
+  height: auto;
+}
+.rt-discover {
+  float: left;
+  padding: 7px 0;
+  line-height: 17px;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .rt-wrapper {
+    overflow: hidden;
+    padding: 120px 20px 20px 20px;
+  }
+  .rt-hideshow.rt-wrapper {
+    padding: 120px 20px 20px 20px;
+  }
+}
+@media (max-width: 400px) {
+  .rt-discover {
+    float: left;
+    padding: 7px 0;
+    line-height: 10px;
+    color: #fff;
+    font-size: 10px;
+  }
+  .rt-logo {
+    float: left;
+    width: 52px;
+    padding: 2px 0;
+    margin-right: 5px;
+    line-height: 27px;
+  }
+}
+@media (max-width: 300px) {
+  .rt-discover {
+    float: left;
+    padding: 5px 0;
+    line-height: 8px;
+    color: #fff;
+    font-size: 8px;
+  }
+  .rt-logo {
+    float: left;
+    width: 45px;
+    padding: 2px 0;
+    margin-right: 5px;
+    line-height: 22px;
+  }
+}

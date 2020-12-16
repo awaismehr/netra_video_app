@@ -1,0 +1,122 @@
+.rt-btnlogin {
+  float: right;
+  color: #fff;
+  font-size: 28px;
+  line-height: 31px;
+  padding: 0 20px 0 0;
+}
+.rt-dropdown {
+  float: right;
+  padding: 0 0 0 0;
+}
+.rt-dropdown .btn {
+  border: 0;
+  float: right;
+  outline: none;
+  color: #fff;
+  font-size: 28px;
+  line-height: 31px;
+  background: none;
+  padding: 0 20px 0 0;
+}
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-secondary.dropdown-toggle:focus {
+  box-shadow: none;
+  background: none !important;
+  border: none;
+}
+
+.dropdown-item button {
+  width: 100%;
+  float: left;
+  height: 50px;
+  padding: 0 10px;
+  font-size: 18px;
+  text-align: center;
+}
+.rt-name {
+  margin: 5px 0 !important;
+  height: 50px;
+  line-height: 40px !important;
+}
+.rt-name:hover {
+  color: #fff;
+  background: #f00;
+}
+.rt-logoutitem:hover,
+.rt-logoutitem {
+  height: 40px;
+  width: 100%;
+  line-height: 30px;
+  color: #fff;
+  background: #f00;
+  cursor: pointer;
+}
+/* @media (max-width: 768px) {
+  .rt-dropdown {
+    padding: 0 20px 0 0;
+  }
+} */
+/* .rt-dropdown {
+  float: right;
+  padding: 0 0 0 0;
+} */
+.rt-dropdown .btn {
+  border: 0;
+  float: right;
+  outline: none;
+  color: #fff;
+  font-size: 28px;
+  background: none;
+  line-height: 31px;
+  padding: 0 20px 0 0;
+}
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-secondary.dropdown-toggle:focus {
+  box-shadow: none;
+  background: none !important;
+  border: none;
+}
+.rt-userimage {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 62px;
+}
+.rt-name {
+  font-size: 12px;
+  line-height: 17px;
+  padding: 10px 0;
+  margin: 0;
+  text-align: center;
+}
+.rt-useremail {
+  padding: 0 0 10px;
+}
+.dropdown-item {
+  text-align: center !important;
+}
+@media (max-width: 768px) {
+  .rt-dropdown {
+    padding: 0 20px 0 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .rt-btnlogin {
+    padding: 0;
+  }
+  .rt-dropdown .btn {
+    border: 0;
+    float: right;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    background: none;
+    line-height: 31px;
+    padding: 0 0px 0 0;
+  }
+}

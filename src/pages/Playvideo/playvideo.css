@@ -1,0 +1,19 @@
+iframe{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    height: 450px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    -webkit-box-shadow: 0 0 20px 0 rgba(0,0,0,0.20);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.20);
+}
+@media (max-width:640px){
+    iframe{
+        height: 250px;
+        max-width: 300px;
+    }
+}

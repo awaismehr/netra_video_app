@@ -1,0 +1,127 @@
+.rt-searcharea {
+  width: 580px;
+  margin: 0 auto;
+}
+.rt-formtheme {
+  width: calc(100% - 80px);
+  float: left;
+}
+.rt-formtheme fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+  float: left;
+}
+.form-group {
+  margin: 0;
+  width: 100%;
+  float: left;
+  position: relative;
+}
+.form-group input {
+  width: 100%;
+  float: left;
+  height: 31px;
+  outline: none;
+  border-radius: 10px;
+  padding: 0 70px 0 10px;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+}
+.form-group button {
+  top: 0;
+  right: 0;
+  outline: none;
+  padding: 0 20px;
+  line-height: 29px;
+  position: absolute;
+  border: 1px solid #ccc;
+  border-radius: 0 10px 10px 0;
+}
+.form-group button span {
+  position: absolute;
+  top: 4px;
+  right: 20px;
+  color: #ffff;
+  width: 10px;
+  font-size: 10px;
+  line-height: 10px;
+  border-radius: 50%;
+  z-index: 11;
+  background: #f00;
+}
+.rt-clearedallinput {
+  top: 0;
+  right: -40px !important;
+  color: grey;
+  margin-right: 60px;
+  line-height: 29px;
+  position: absolute;
+  padding-right : 55px;
+}
+/* .clearsearch {
+  color: grey;
+} */
+.rt-dropdown {
+  float: right;
+  padding: 0 0 0 0;
+}
+.pos{
+  margin-right: 230px;
+}
+.rt-dropdown .btn {
+  border: 0 !important;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  outline: none;
+  font-size: 28px;
+  line-height: 31px;
+  background: none;
+}
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-secondary.dropdown-toggle:focus {
+  box-shadow: none;
+  background: none !important;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .rt-dropdown {
+    padding: 0 0 0 0;
+  }
+  .pos{
+    margin : 0
+  }
+}
+@media (max-width: 850px) and (min-width : 769px) {
+  .pos{
+    margin-right : 40px;
+  }
+}
+@media (max-width: 970px) and (min-width : 851px) {
+  .pos{
+    margin-right : 80px;
+  }
+}
+@media (max-width: 1299px) and (min-width : 971px) {
+  .pos{
+    margin-right : 150px;
+  }
+}
+/* @media (max-width: 1199px) {
+  .rt-searcharea {
+    width: 350px;
+  }
+} */
+@media (max-width: 768px) {
+  .rt-searcharea {
+    width: 100%;
+    margin: 10px 0 0;
+    float: left;
+  }
+  .rt-dropdown{padding: 0 !important;}
+}
